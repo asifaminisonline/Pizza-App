@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #F4F6F6;
+    padding: 0px 20px;
+}
+.navLinks{
+    display: flex;
+}
+.navLinks li{
+    padding: 0px 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size:18px ;
+}
+.cartColor{
+    background-color: #FFC107;
+    padding: 15px 0px;
+    border-radius: 50px;
+}
+@media screen and (max-width:500px){
+    .cartColor{
+        background-color: yellow;
+        padding: 10px 0px;
+        border-radius: 50px;
+    }   
+    .logo{
+        height: 100px !important;
+    }
+    .smalltImageCart{
+        height: 25px !important;
+    }
+}
